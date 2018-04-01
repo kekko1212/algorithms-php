@@ -1,9 +1,11 @@
 {
   "autoload": {
     "psr-4": {
-      "Algorithms//": "src",
-      "Algorithms//Test//": "tests"
+      "Algorithms\\": "src"
     }
+  },
+  "autoload-dev": {
+    "Algorithms\\Test\\": "tests"
   },
   "require-dev": {
     "phpunit/phpunit": "7.0.*"
